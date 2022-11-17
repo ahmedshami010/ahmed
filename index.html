@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>جامعة المعرفة والعلوم الحديثة</title>
+  </head>
+  <body>
+    <div class="nav">
+      <img src="img/logo.png" alt="" class="logo" width="230px" height="60px" />
+      <div id="main" onclick="openfunction()">&#9776;</div>
+      <div id="menu" class="sidemenu">
+        <a href="index.html" id="active">الرئيسية</a>
+        <a href="">عن الجامعة</a>
+        <a href="">إدارة الجامعة</a>
+        <a href="">شؤون الطلاب</a>
+        <a href="">الكليات</a>
+        <a href="">المركز الأعلامي</a>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <hr />
+        <a href="">للأستفسار</a>
+        <a href="" class="close" onclick="closefunction()">&times;</a>
+      </div>
+    </div>
+    <div class="back">
+      <!-- <h2>hgfjgjhj</h2>
+      <p>kjhkghlgkllglglklgjklgkl</p> -->
+      <button class="butt-send" onclick="send_open()">send</button>
+      <div class="card butt" id="send">
+        <img src="img/الشعار دقة عالية معدل.png" alt="" />
+        <h2>مرحباً بكم</h2>
+        <p>الصفحة الرسمية لجامعة المعرفة والعلوم الحديثة</p>
+        <button class="butt-close" onclick="send_close()">close</button>
+      </div>
+    </div>
+    <div class="boxs">
+      <div class="box">
+        <img src="img/1 .jpg" alt="" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab vero
+          eaque velit id enim impedit cumque corporis optio eius voluptas! Vel
+          nesciunt amet iure dicta maiores culpa deleniti porro fugit?
+        </p>
+        <a href="Page 1.html">المزيد</a>
+      </div>
+      <div class="box">
+        <img src="img/2.jpg" alt="" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab vero
+          eaque velit id enim impedit cumque corporis optio eius voluptas! Vel
+          nesciunt amet iure dicta maiores culpa deleniti porro fugit?
+        </p>
+
+        <a href="‏‏Page 2 .html">المزيد</a>
+      </div>
+      <div class="box">
+        <img src="img/3.jpg" alt="" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab vero
+          eaque velit id enim impedit cumque corporis optio eius voluptas! Vel
+          nesciunt amet iure dicta maiores culpa deleniti porro fugit?
+        </p>
+        <a href="‏‏‏‏Page 3 .html">المزيد</a>
+      </div>
+      <div class="box">
+        <img src="img/4.jpg" alt="" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab vero
+          eaque velit id enim impedit cumque corporis optio eius voluptas! Vel
+          nesciunt amet iure dicta maiores culpa deleniti porro fugit?
+        </p>
+        <a href="‏‏‏‏Page 4  .html">المزيد</a>
+      </div>
+    </div>
+    <hr />
+    <div class="asa">
+      <div class="mdl-card mdl-card--theme-demo mdl-shadow--2dp">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">الأعلانات</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          غدا الاربعاء جامعة المعرفة والعلوم الحديثة تقيم ندوة عن تطبيقات انترنت
+          الأشياء في عصرنا وكيفية الاستفادة من هذا المجال في حياتنا العملية
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a
+            class="
+              mdl-button mdl-button--colored
+              mdl-js-button mdl-js-ripple-effect
+            "
+          >
+            <div class="mdl-card__menu">
+              <button class="btn-3">
+                <a href="http://www.kmsu.edu.ye/Announcements/Details?id=76"
+                  ><span>share</span></a
+                >
+              </button>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mdl-card mdl-card--theme-demo mdl-shadow--2dp">
+        <div class="mdl-card__title_1">
+          <h2 class="mdl-card__title-text">الأخبار</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          زيارة ميدانية لمجلس النواب لطلبة السياسة والإعلام
+          <br />
+          <br />
+          <br />
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a
+            class="
+              mdl-button mdl-button--colored
+              mdl-js-button mdl-js-ripple-effect
+            "
+          >
+            <div class="mdl-card__menu">
+              <button class="btn-3">
+                <a href="http://www.kmsu.edu.ye/News/Details?id=2059"
+                  ><span>share </span></a
+                >
+              </button>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="divdd">
+      <div class="login">
+        <div class="form">إستعلام نتائج الطلاب</div>
+        <form action="">
+          <p class="pp">:اسم الطالب</p>
+          <input type="text" placeholder="Username" />
+          <p class="pp">:الرقم الجامعي</p>
+          <input type="password" placeholder="ID" />
+          <br />
+          <input type="submit" value="Login" />
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container2">
+        <div class="rowrr">
+          <div class="footer_menu">
+            <h2>روابط تهمك</h2>
+            <ul>
+              <li>
+                <a href="http://www.mohe.gov.ye/"
+                  >وزارة التعليم العالي والبحث العلمي</a
+                >
+              </li>
+              <li>
+                <a href="http://www.ycit-he.org/"
+                  >مركز تقنية المعلومات في التعليم العالي</a
+                >
+              </li>
+              <li>
+                <a href="http://www.oliye.net/home/"
+                  >محرك البحث لمكتبات مؤسسات التعليم والبحث العلمي في اليمن</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer_menu">
+            <h2>تواصل معنى</h2>
+            <ul>
+              <li>
+                <a href="http://www.kmsu.edu.ye/Home/EmailList"
+                  >القائمة البريدية</a
+                >
+              </li>
+              <li>
+                <a href="#"> الثابت: 01/484772 <i class="fas fa-home"></i></a>
+              </li>
+              <li>
+                <a href="#"> موبايل: 777333918 <i class="fas fa-phone"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_menu">
+            <h2>بوابات الكترونية</h2>
+            <ul>
+              <li>
+                <a href="http://p.oasyemen.net/portal"> التسجيل الالكتروني </a>
+              </li>
+              <li>
+                <a href="http://www.kmsu.edu.ye/result/index.phpv">
+                  بوابة الطلاب</a
+                >
+              </li>
+              <li>
+                <a href="http://www.kmsu.edu.ye/Accounts/StuffLogin"
+                  >بوابة الموظفين</a
+                >
+              </li>
+              <li>
+                <a href="http://www.kmsu.edu.ye/Home/PhoneList"
+                  >التحويلات الداخلية</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer_menu">
+            <h2>...تابعونا</h2>
+            <div class="social_links">
+              <a href="https://www.facebook.com/1690239607954030"
+                ><i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://t.me/KMSUniversity"
+                ><i class="fab fa-telegram-plane"></i
+              ></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="https://www.youtube.com/channel/UCIp2m-r872AYMDqFLU8MH5Q"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="end">
+      جميع الحقوق محفوظة_2023
+    </div> -->
+  </body>
+  <script src="js.js"></script>
+</html>
